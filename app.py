@@ -6,7 +6,7 @@ app = Dash(__name__)
 server=app.server
 
 app.layout = html.Div([
-    html.Label('Hello. I am human. The data are from:'),
+    html.Label('Hello. I am human. Huray! The data are from:'),
     dcc.RadioItems(
         options=[
             {'label': 'SQLight DB', 'value': 1}, # 1 извлечь из БД SQLite
